@@ -1,0 +1,10 @@
+package in.thiru.service;
+
+public interface IBookService {
+	
+	public Double findBookPriceById(Integer id)
+	{
+		
+	}
+
+}

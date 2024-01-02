@@ -1,0 +1,15 @@
+package in.thiru.handleexception;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+import ch.qos.logback.core.model.Model;
+
+@ControllerAdvice
+public class ExceptionHandlerClass {
+	
+	public String getNoBookFoundException(Model modle)
+	{
+		
+	}
+
+}

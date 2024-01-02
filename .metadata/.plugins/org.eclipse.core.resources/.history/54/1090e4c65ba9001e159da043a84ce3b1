@@ -1,0 +1,10 @@
+package in.thiru.exceptions;
+
+public class NoBookFoundException {
+
+	public NoBookFoundException(String msg)
+	{
+	super(msg)
+	}
+
+}

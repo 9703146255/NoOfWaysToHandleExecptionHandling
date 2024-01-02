@@ -1,0 +1,10 @@
+package in.thiru.exceptionhandling;
+
+public class ProductNotFuoundException extends RuntimeException {
+	
+	public ProductNotFuoundException() 
+	{
+		// TODO Auto-generated constructor stub
+	}
+
+}

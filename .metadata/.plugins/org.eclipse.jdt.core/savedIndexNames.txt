@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+D:\ASHOKIT\21-Types of handling exceptions in spring boot\.metadata\.plugins\org.eclipse.jdt.core
+1928934013.index
+3210594975.index
+1134866421.index
+955974108.index
+1865797976.index
+719178973.index

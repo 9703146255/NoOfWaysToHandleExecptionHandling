@@ -1,0 +1,11 @@
+package in.thiru.service;
+
+public class BookServiceImpl implements IBookService{
+	
+	@Override
+	public Double findBookPriceById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

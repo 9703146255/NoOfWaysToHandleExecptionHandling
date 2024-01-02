@@ -1,0 +1,20 @@
+package in.thiru.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+import in.thiru.service.BookServiceImpl;
+
+@Controller
+public class BookController {
+
+	@Autowired
+private	BookServiceImpl service;
+
+  public String getBookPriceById(Model model,String bookId)
+  {
+	  model.addAttribute("bookId", bookId);
+  }
+
+}

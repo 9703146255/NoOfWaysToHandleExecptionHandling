@@ -1,0 +1,14 @@
+package in.thiru.service;
+
+public class EmployeeService {
+
+	public String getEmpDtls() {
+		System.out.println("getEmpDtls() :: method");
+		
+		
+		
+		return "thiru";
+
+	}
+
+}

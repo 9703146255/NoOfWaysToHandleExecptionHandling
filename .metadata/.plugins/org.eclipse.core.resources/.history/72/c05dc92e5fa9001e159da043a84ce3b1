@@ -1,0 +1,16 @@
+package in.thiru.handleexception;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+@ControllerAdvice
+public class ExceptionHandlerClass {
+	
+	public String getNoBookFoundException(Model modle)
+	{
+		modle.addAttribute("errorPage", "")
+		
+		return "errorpage";
+	}
+
+}

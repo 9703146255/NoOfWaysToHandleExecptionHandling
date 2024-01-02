@@ -1,0 +1,38 @@
+Introduction
+=============
+ -->Creating User Defined Exceptions
+ 
+ --> Controller Based Exception Handling
+ 
+ -->Global Exception Handler
+  
+ --> Exception Handling in Spring MVC application
+ 
+ -->Exception Handling in Spring Boot Rest API
+ 
+ introduction
+ =============
+ 
+Getting Exceptions / Errors in web application is quiet common
+behavior in internet world.
+
+When Exception Occurred in web application it doesn’t make any
+sense to provide error stack trace to Client/End user.
+
+End Users may not understand the Exception/Error Stack trace.
+
+Handling Exceptions/ Errors correctly in web application is very
+desirable feature for End users / Clients.
+
+ 
+ --> --> --> --> --> --> -->
+ ‘@ExceptionHandler only handles exception getting raised from the
+controller where it is defined.
+
+It will not handle exceptions getting raised from other controllers.
+@ControllerAdvice annotation solves this problem.
+
+@ControllerAdvice annotation fs used to define @ExceptionHandler,
+@InitBinder, and @ModelAttribute methods that apply to all
+@RequestMapping methods.
+
